@@ -1,0 +1,10 @@
+name = "Glibc_jll"
+uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
+version = "2.25.0+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.3"

@@ -1,18 +1,36 @@
 [[Glibc]]
-arch = "i686"
-git-tree-sha1 = "2b536f1e7ca81e2257c483465b35998fd68c9d52"
+arch = "x86_64"
+git-tree-sha1 = "b477a91e5c4d0a94ad4cf0d8d592f5b61ef224d4"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "51755af84184ee4649033a24f923a63dc7e2d8f3038b39352bfb3e2ee51541b1"
+    sha256 = "7be79cbfe93a2996cf4b1db5a27dbd7a9526249e5aeba26d3374b650bea801fd"
+    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.25.0+0/Glibc.v2.25.0.x86_64-linux-gnu.tar.gz"
+[[Glibc]]
+arch = "i686"
+git-tree-sha1 = "837104b16085c0b71e74293b5423886f81f6c8af"
+libc = "glibc"
+os = "linux"
+
+    [[Glibc.download]]
+    sha256 = "0bb009a04756fc90b0adf4b1c83ff3f31fb895d81e0dfa49eaffc33dbac6a90e"
     url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.25.0+0/Glibc.v2.25.0.i686-linux-gnu.tar.gz"
 [[Glibc]]
-arch = "x86_64"
-git-tree-sha1 = "90e7c33d763278a41fd69be5f209e66ea528ed05"
+arch = "aarch64"
+git-tree-sha1 = "8b01e4b125456a6684469691c6c4712d2f31b62b"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "bc675627d28e016779034cdb94627d446ee45f7c2f46de15072e3132ce6a6695"
-    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.25.0+0/Glibc.v2.25.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "5d199506ebf2d8ea2169c760d7be8ea953bb94ae7f68a0ae8a6b562ecfe751cc"
+    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.25.0+0/Glibc.v2.25.0.aarch64-linux-gnu.tar.gz"
+[[Glibc]]
+arch = "armv7l"
+git-tree-sha1 = "e89ed0455c45ab2ae4ab67bc2e438b2842eef80e"
+libc = "glibc"
+os = "linux"
+
+    [[Glibc.download]]
+    sha256 = "ab534c0b2cb97723f6eb1adcbe63f569a94abf402fca62383fa1b095f511a0c2"
+    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.25.0+0/Glibc.v2.25.0.arm-linux-gnueabihf.tar.gz"

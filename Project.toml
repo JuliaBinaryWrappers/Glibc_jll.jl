@@ -1,6 +1,6 @@
 name = "Glibc_jll"
 uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
-version = "2.12.2+0"
+version = "2.17.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"

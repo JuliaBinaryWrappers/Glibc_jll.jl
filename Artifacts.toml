@@ -29,28 +29,28 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.19.0+3/Glibc.v2.19.0.armv7l-linux-gnueabihf.tar.gz"
 [[Glibc]]
 arch = "i686"
-git-tree-sha1 = "f5a6fd259815e02a725c233d7921eea9bdd3af5a"
+git-tree-sha1 = "c3ebd4e81caa88eafce4db666cd455de65f0c430"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "b3786126ce8bfbdc37210e7c1908db3b5a11154bb7d8ea61bb90f906297058e2"
-    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.19.0+3/Glibc.v2.19.0.i686-linux-gnu.tar.gz"
+    sha256 = "b4156d2cf8f7f0477dcc98fb7d339b557e94becc5ed2f5948578e63446364af1"
+    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.17.0+3/Glibc.v2.17.0.i686-linux-gnu.tar.gz"
 [[Glibc]]
 arch = "powerpc64le"
-git-tree-sha1 = "9c4097b3ac8807eb90ab0661442d77a05715ab23"
+git-tree-sha1 = "9f9c36e14b695c801f6e6e4041ba3265242444e4"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "6fc790588e7aabc5b2c671681402bfb987cd4446a89d9806eaa45c19813e766d"
-    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.19.0+3/Glibc.v2.19.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "ed0283415f8d47f667ca0991dabf9bf34f44d0e24dcf0c32fdd98afe3957a880"
+    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.17.0+3/Glibc.v2.17.0.powerpc64le-linux-gnu.tar.gz"
 [[Glibc]]
 arch = "x86_64"
-git-tree-sha1 = "9cec2dffb79b01bffbd17ffc1ea5db6b2b1c6470"
+git-tree-sha1 = "6399b6cade0ba3459dc55fa74e78a07e99c97259"
 libc = "glibc"
 os = "linux"
 
     [[Glibc.download]]
-    sha256 = "c8e2221cba6da13d3e82bc11cce20e8e67fbcfc4e6f7c84f6eea15db88104ad9"
-    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.19.0+3/Glibc.v2.19.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "e1d98dced278d02e2e65de9e87daf390e3959ed6b87d41cdc646ad4b30c22300"
+    url = "https://github.com/JuliaBinaryWrappers/Glibc_jll.jl/releases/download/Glibc-v2.17.0+3/Glibc.v2.17.0.x86_64-linux-gnu.tar.gz"

@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("Glibc")
-JLLWrappers.@generate_main_file("Glibc", UUID("452aa2e7-e185-58db-8ff9-d3c1fa4bc997"))
+JLLWrappers.@generate_main_file("Glibc", Base.UUID("452aa2e7-e185-58db-8ff9-d3c1fa4bc997"))
 end  # module Glibc_jll
